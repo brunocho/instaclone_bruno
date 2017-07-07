@@ -16,44 +16,57 @@
 		<section id="login">
 			<div class="login__box">
 				<img 
-				src="images/logoLogin.png"
-				alt="Logo login"
-				title="Logo login"
+					src="images/logoLogin.png"
+					alt="Logo login"
+					title="Logo login"
 				/>
-
-			<div class="login__box">
-			<span class="login__text">
-				Don't have an account?
-			</span>
-			<a href="#" class="login__link"> Sign up</a>
+				<form action="feed.html" method="get">
+					<input
+						type="text"
+						name="username"
+						placeholder="username"
+						required
+						class="login__input"
+					/>
+					<div class="login__form-box">
+						<input 
+							type="password" 
+							name="potato"
+							placeholder="Password"
+							required
+							class="login__input"
+						/>
+						<a href="#">forgot?</a>
+					</div>
+					<input type="submit" value="Log in">
+				</form>
+				<span class="login__form-divider">or</span>
+				<a id="login__fb-link" href="#">log in with facebook</a>
 			</div>
-
+			<div class="login__box">
+				<span class="login__text">
+				Don't have an account?
+				</span>
+				<a href="#" class="login__link"> Sign up</a>
+			</div>
 			<div class="login__box login__box--transparent">
-				
 				<span class="login__text">
 					get the app
 				</span>
-
 				<div class="login__box login__box--transparent">
 				<img 
-				src="images/ios.png"
-				alt="ios"
-				title="ios"
-				/>
+					src="images/ios.png"
+					alt="ios"
+					title="ios"
+				s/>
 				<img 
-				src="images/andriod.png"
-				alt="andriod"
-				title="andriod"
+					src="images/andriod.png"
+					alt="andriod"
+					title="andriod"
 				/>
 				</div>
-
 			</div>
-
 </section>
-
-
-
 	</main>
 	</body>
-
 </html>
