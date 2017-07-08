@@ -1,4 +1,22 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size:12px;
+	background-color: #FAFAFA;
+}
+
+main,
+footer{
+	max-width: 900px;
+}
+
+main{
+	margin-top: 60px;
+}
+
+a{
+	color: #003569;
+}
+
+input:focus{
+    outline: none;
 }

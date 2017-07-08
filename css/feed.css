@@ -1,0 +1,108 @@
+#feed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: none;
+}
+
+.photo{
+    width:600px;
+    background-color: white;
+    border:1px solid #e6e6e6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.photo:last-child{
+    margin-bottom: 0;
+}
+
+.photo__header{
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.photo__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.photo__author{
+    display: block;
+    font-weight: 600;
+    margin-bottom:3px;
+}
+
+.photo__image{
+    max-width: 100%;
+}
+
+.photo__info{
+    text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.photo__header div{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.photo__main{
+    padding: 15px;
+}
+
+.photo__action{
+    margin-bottom: 15px;
+}
+
+.photo__likes{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.photo__comments{
+    margin-bottom: 15px;
+}
+
+.photo__comment-author{
+    font-weight: 600;
+}
+
+.photo__date{
+    display: block;
+    margin-bottom: 10px;
+   color: #999;
+}
+
+.photo__add-comment-container{
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.photo__add-comment-container textarea{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top:15px;
+    width: 95%;
+    resize: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.photo__add-comment-container textarea:focus{
+    outline: none;
+}
+
+.photo__add-comment-container i{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}

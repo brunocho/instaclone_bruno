@@ -1,9 +1,9 @@
 footer{
 	display:flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	align-items: center;
-	width:95%;
-	margin:15px auto;
+	width: 90%;
+	margin: 55px auto;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -12,7 +12,7 @@ footer{
 		list-style: none;
 	}
 	.footer__item{
-		margin-right:15px; 
+		margin-right:17px; 
 	}
 	.footer__link{color: #345E87;
 	}

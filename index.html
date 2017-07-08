@@ -6,21 +6,24 @@
 		<meta description="Instaclone login page">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/e.jpg" type="image/x-icon">
 	</head>
 	<body>
-	<main>
+	<main class="login">
 		<div id="phone-image">
 			<img
 				src="images/phoneImage.png"
 				alt="Phone Image"
 				titile="Phone Image"
-			/>
+				/>
+		</div>
 		<section id="login">
-			<div class="login__box">
+			<div class="login__box login__box--form">
 				<img 
 					src="images/logoLogin.png"
 					alt="Logo login"
 					title="Logo login"
+					class="login__logo"
 				/>
 				<form action="feed.html" method="get">
 					<input
@@ -43,25 +46,23 @@
 					<input type="submit" value="Log in">
 				</form>
 				<span class="login__form-divider">or</span>
-				<a id="login__fb-link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+				<a id="login__fb-link" href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
 				Log in with facebook</a>
 			</div>
 			<div class="login__box">
-				<span class="login__text">
-				Don't have an account?
+				<span class="login__account">
+					Don't have an account?
 				</span>
-				<a href="#" class="login__link"> Sign up</a>
+				<a href="#" class="login__link">Sign up</a>
 			</div>
 			<div class="login__box login__box--transparent">
-				<span class="login__text">
-					get the app
-				</span>
-				<div class="login__box login__box--transparent">
+				<span class="login__text">Get the app</span>
+				<div class="login__appstores">
 				<img 
 					src="images/ios.png"
 					alt="ios"
 					title="ios"
-				s/>
+				/>
 				<img 
 					src="images/andriod.png"
 					alt="andriod"
