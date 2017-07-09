@@ -122,8 +122,9 @@
     margin-left: 10px;
 }
 
-.fa-heart-o{
-    animation: 1s pump infinite linear;
+.fa-heart{
+    animation: .4s pump infinite linear;
+    color: darkred;
 }
 
 @keyframes pump{
