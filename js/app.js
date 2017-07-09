@@ -34,17 +34,22 @@
 
 $(document).ready(function(){
 
-	var $heart = $('.heart');
-	var	$addcomment = $('.photo__add-comment');
+	var $heart = $('.heart'),
+		$addcomment = $('.photo__add-comment');
 
 	$heart.click(function(){
+		var likes = $(this).parent().parent()
+					.children('.photo__likes')
+					.children('.photo__likes-number'),
+			likesNumber = parseInt(likes.html()),
+			newValue
 		if($(this).hasClass('fa-heart-o')){
-			console.log("+1")
+			newValue = likesNumber +1;
 		} else{
-			console.log("-1")
+			newValue = likesNumber -1;
 		}
-		$(this).toggleClass('fa-heart-o fa-heart')
-		
+		likes.html(newValue)
+		$(this).toggleClass('fa-heart-o fa-heart');
 	});
 
 	$addcomment.keydown(function(event){
