@@ -38,11 +38,7 @@
 
 		.footer__item{
 			margin-bottom: 15px;
-		}
-
-	}
-
-		#phone-image{
+		}#phone-image{
 			display: none;
 		}
 
@@ -71,3 +67,7 @@
 		.people__user{
 			border: none;
 		}
+
+	}
+
+		
